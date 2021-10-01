@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>TecBlog - O seu Blog de tecnologia</title>
+</head>
+
+<body>
+    <div id="area-cabecalho">
+        <div id="area-logo">
+            <h1>Tec<span class="branco">Blog</span></h1>
+        </div>
+        <div id="area-menu">
+            <a href="#">Home</a>
+            <a href="#">Jogos</a>
+            <a href="#">Celulares</a>
+            <a href="#">Informática</a>
+            <a href="#">Eletrônicos</a>
+        </div>
+        <div id="area-color">
+            <div onclick="setColor(2)" style="background:#1447FA;" class="op-color"></div>
+            <div onclick="setColor(3)" style="background:#F70C49;" class="op-color"></div>
+            <div onclick="setColor(1)" style="background:#f7b600;" class="op-color"></div>
+            <div onclick="setColor(0)" style="background:#19F737;" class="op-color"></div>
+        </div>
+    </div>
+    <div id="area-principal">
+        <div id="area-postagens">
+            <!-- postagem -->
+            <div class="postagem">
+                <h2>Título da postagem 1</h2>
+                <span class="data">postado 20 de março de 2021</span>
+                <img width="620px" src="img/imagem1.jpg">
+                <p><span class="paragrafo"></span> Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <a class="veja-mais" href="#">Veja mais</a>
+            </div>
+            <!-- fecha postagem -->
+            <!-- postagem -->
+            <div class="postagem">
+                <h2>Título da postagem 2</h2>
+                <span class="data">postado 10 de março de 2021</span>
+                <img width="620px" src="img/imagem2.jpg">
+                <p><span class="paragrafo"></span> Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <a class="veja-mais" href="#">Veja mais</a>
+            </div>
+            <!-- fecha postagem -->
+        </div>
+        <div id="area-lateral">
+
+            <div class="conteudo-lateral">
+                <h3>Postagens recentes</h3>
+                <div class="postagem-lateral">
+                    <p class="texto-lateral">Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <a class="veja-mais" href="#">Veja Mais</a>
+                    <hr>
+                    <p class="texto-lateral">Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <a class="veja-mais" href="#">Veja Mais</a>
+                </div>
+            </div>
+            <div class="conteudo-lateral">
+                <h3>Categorias</h3>
+                <div class="postagem-lateral">
+                    <a href="#">Jogos</a><br>
+                    <a href="#">Celulares</a><br>
+                    <a href="#">Informática</a><br>
+                    <a href="#">Eletrônicos</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="rodape">
+        <strong style="font-size:18px;">Web Page de tamanho fixo desenvolvida em HTML5, CSS3 e JavaScript</strong><br>
+        <span class="data"></span><br>
+        Curso Desenvolvimento WEB Completo - Udemy<br> 
+        Página desenvolvida por <a href="https://github.com/joaoVictorBAlves">João Victor Alves</a>
+    </div>
+</body>
+
+</html>
