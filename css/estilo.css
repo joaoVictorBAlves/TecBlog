@@ -9,7 +9,7 @@
     margin: 0;
 }
 body{
-    min-width: 1000px;
+    min-width: 1280px;
     font-size: 1em;
     font-family: 'Trebuchet MS','Helvetica',sans-serif;
     background: #e6e6e6;
@@ -73,6 +73,14 @@ a{
     padding: 10px;
 }
 
+@media (max-width:1280px){
+    #area-lateral{
+        position: relative;
+        left: 5px;
+        width:660px;
+        float: left;
+    }
+}
 /*Formatação Geral*/
 #area-principal a:link, #area-principal a:visited{
     color:var(--color);
